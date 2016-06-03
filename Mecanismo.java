@@ -17,7 +17,7 @@ public abstract class Mecanismo
     }
     
     /**
-     * Devuelve primo
+     * Devuelve número
      */
     public int getNum()
     {

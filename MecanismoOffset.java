@@ -33,6 +33,7 @@ public class MecanismoOffset extends Mecanismo
             digitos.add(num % 10);
             num/=10;
         }
+        
         for(int cont = digitos.size()-2;cont >= 0; cont--)
         {
             int digito = digitos.get(cont) + getNum();
@@ -61,6 +62,7 @@ public class MecanismoOffset extends Mecanismo
             digitos.add(num % 10);
             num/=10;
         }
+        
         for(int cont = (digitos.size()-2); cont >= 0; cont--)
         {
             int digito = digitos.get(cont) - getNum();
